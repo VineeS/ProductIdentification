@@ -1,0 +1,491 @@
+29  python3 test.py
+   30  python3 test.py
+   31  python3
+   32  vim test.py
+   33  open(test.py)
+   34  open('test.py')
+   35  open(test.py)
+   36  cd Download/workspac
+   37  npm start
+   38  npm start
+   39  truffle compile
+   40  truffle migrate
+   41  npm start
+   42  truffle migrate
+   43  npm start
+   44  cd Download/workspace
+   45  cd Download
+   46  cd Downloads
+   47  cd work
+   48  ls
+   49  cd ..
+   50  cd Documents/workspace/
+   51  cd eth-t
+   52  ls
+   53  cd
+   54  reactJS --version
+   55  react
+   56  npm start
+   57  truffle compile
+   58  truffle migrate
+   59  truffle migrate
+   60  npm start
+   61  npm start
+   62  cd Documents/workspace/
+   63  truffle compile
+   64  truffle migrate
+   65  truffle migrate
+   66  npm start
+   67  truffle compile
+   68  truffle migrate
+   69  truffle compile
+   70  npm start
+   71  truffle compile
+   72  truffle migrate
+   73  truffle migrate
+   74  npm start
+   75  npm start
+   76  npm start
+   77  npm start
+   78  npm starr
+   79  npm start
+   80  npm start
+   81  npm start
+   82  npm start
+   83  npm build
+   84  npm start
+   85  npm start
+   86  npm start
+   87  ls
+   88  cd server
+   89  ls
+   90  npm start
+   91  npm install
+   92  cd ..
+   93  cd client
+   94  npm install
+   95  npm start
+   96  cd ..
+   97  npm start
+   98  cd sever
+   99  cd server
+  100  npm start
+  101  npm install
+  102  npm start
+  103  ls
+  104  npm start
+  105  ls
+  106  npm install
+  107  npm start
+  108  npn start
+  109  npm start
+  110  npm start
+  111  run product-app-master
+  112  start product-app-master
+  113  npm product-app-master
+  114  npm start
+  115  ls
+  116  cd server
+  117  npm start
+  118  npm install
+  119  npm start
+  120  ls
+  121  cd ..
+  122  cd client
+  123  npm install
+  124  npm start
+  125  hadoop
+  126  hive --version
+  127  cd ..
+  128  hive --version
+  129  cd
+  130  hive --version
+  131  hadoop --version
+  132  brew cask install homebrew/cask-versions/adoptopenjdk8
+  133  java --version
+  134  java -v
+  135  java --v
+  136  java -version
+  137  brew install hadoop
+  138  brew -version
+  139  java --v
+  140  brew update
+  141  brew update
+  142  brew update
+  143  brew install hadoop
+  144  open usr/local/lib/node_modules/truffle/build
+  145  ;s
+  146  ls
+  147  cd node_modules/
+  148  ls
+  149  npm start
+  150  cd client
+  151  npm install
+  152  npm start
+  153  npm install -g truffle
+  154  truffle unbox adrianmcli/truffle-react
+  155  y
+  156  ls
+  157  npm start
+  158  truffle compile
+  159  truffle run
+  160  truffle build
+  161  truffle run
+  162  truffle build
+  163  truffle init
+  164  truffle run
+  165  npm start
+  166  npm start
+  167  truffle run
+  168  truffle init
+  169  cd ..
+  170  cd
+  171  ls
+  172  truffle init
+  173  truffle build
+  174  npm start
+  175  truffle migrate
+  176  truffle run
+  177  npm start
+  178  truffle migrate
+  179  truffle test
+  180  npm start
+  181  truffle init
+  182  truffle init
+  183  tuffle migrate
+  184  truffle migrate
+  185  trullfe build
+  186  truffle build
+  187  truffle compile
+  188  truffle compile
+  189  npm run ganache
+  190  npm run start
+  191  npm start
+  192  ls
+  193  truffle migrate
+  194  truffle migrate
+  195  truffle compile
+  196  truffle init
+  197  truffle compile
+  198  truffle compile
+  199  npm start
+  200  npm start
+  201  truffle compile
+  202  truffle migrate
+  203  truffle migrate
+  204  truffle compile
+  205  npm start
+  206  truffle migrate
+  207  truffle compile
+  208  truffle test
+  209  truffle develop
+  210  truffle develop
+  211  truffle console
+  212  truffle init
+  213  truffle migrate
+  214  truffle migrate
+  215  truffle compile
+  216  truffle compile
+  217  truffle compile
+  218  truffle compile
+  219  truffle compile
+  220  truffle compile
+  221  truffle migrate
+  222  truffle migrate
+  223  truffle migrate
+  224  truffle migrate
+  225  truffle compile
+  226  truffle init
+  227  truffle migrate
+  228  truffle migrate
+  229  truffle migrate
+  230  truffle migrate
+  231  truffle migrate
+  232  truffle compile
+  233  truffle migrate
+  234  truffle migrate
+  235  npm start
+  236  truffle migrate
+  237  truffle migrate
+  238  truffle compile
+  239  truffle compile
+  240  truffle compile
+  241  truffle migrate
+  242  truffle migrate
+  243  truffle migrate
+  244  truffle migrate
+  245  npm start
+  246  ls
+  247  truffle migrate
+  248  pwd
+  249  ls
+  250  truffle migrate
+  251  truffle compile
+  252  npm start
+  253  truffle compile
+  254  truffle migrate
+  255  truffle migrate
+  256  truffle compile
+  257  npm start
+  258  npm outdated
+  259  npm install [0.8.4+commit.c7e474f2.Emscripten.clang]
+  260  npm install [my-outdated-package] 
+  261  truffle version
+  262  truffle compile
+  263  truffle migrate
+  264  truffle compile
+  265  npx truffle compile
+  266  npx truffle migrate
+  267  npx truffle migrate
+  268  npx truffle migrate
+  269  npx truffle migrate
+  270  npx truffle migrate
+  271  npx truffle migrate
+  272  truffle compile
+  273  npx truffle migrate
+  274  truffle migrate
+  275  npm install superagent
+  276  npm install --save react-autobind
+  277  npm install autobind
+  278  npm install auto-bind
+  279  npm start
+  280  npm start
+  281  cd client
+  282  cd client
+  283  ls
+  284  npm start
+  285  cd ..
+  286  npm start
+  287  cd client
+  288  npm init
+  289  npm install
+  290  npm start
+  291  cd client
+  292  npm start
+  293  cd client
+  294  npm start
+  295  cd ..
+  296  npm instal
+  297  npm install
+  298  npm start
+  299  cd client
+  300  npm install
+  301  npm start
+  302  cd server
+  303  cd ..
+  304  cd server
+  305  cd ..
+  306  cd server
+  307  ls
+  308  npm start
+  309  npm install 
+  310  npm audit fix
+  311  cd ..
+  312  cd client
+  313  npm start
+  314  cd client/
+  315  npm start
+  316  npm start
+  317  npm start
+  318  open /Users/vinee/.npm/_logs/2021-06-03T13_01_33_154Z-debug.log
+  319  npm install
+  320  npm start
+  321  cd client/client/
+  322  npm start
+  323  npm start
+  324  npm start
+  325  npm start
+  326  pwd
+  327  ps -ef 
+  328   clear
+  329  cd server/
+  330  LS
+  331  npm start
+  332  npm start
+  333  npm start
+  334  clear
+  335  npm start
+  336  npm start
+  337  cd server
+  338  npm install
+  339  npm audit fix
+  340  cd ..
+  341  cd client
+  342  npm install
+  343  npm start
+  344  npm install -g truffle
+  345  cd ..
+  346  npm install -g truffle
+  347  truffle unbox adrianmcli/truffle-react
+  348  truffle develop
+  349  npm install web3
+  350  npm audit fix
+  351  npm install react-bootstrap bootstrap@4.6.0
+  352  npm audit fix
+  353  cd client
+  354  npm start
+  355  npm start
+  356  npm start
+  357  cd ..
+  358  npm start
+  359  npm start
+  360  cd client
+  361  npm start
+  362  npm install react-bootstrap bootstrap@4.6.0
+  363  npm install web3
+  364  npm audit fix
+  365  npm audit
+  366  npm audit fix
+  367  npm install web3
+  368  npm install web3
+  369  npm start
+  370  clear
+  371  npm install web3@1.3.6
+  372  npm ls web3
+  373  npm install web3@1.2.9
+  374  truffle init
+  375  truffle migrate
+  376  truffle build
+  377  truffle build
+  378  truffle build
+  379  truffle migrate
+  380  npm start
+  381  truffle build
+  382  truffle build
+  383  npm start
+  384  npm start
+  385  npm start
+  386  cd client
+  387  npm start
+  388  npm install next@10.0.7
+  389  npm start
+  390  npm start
+  391  clear
+  392  npm start
+  393  npm start
+  394  truffle migrate
+  395  npm start
+  396  npm start
+  397  npm start
+  398  cd ..
+  399  cd server
+  400  npm install
+  401  npm start
+  402  npm start
+  403  npm start
+  404  cd bug-test-copy
+  405  create-react-app bug-test
+  406  cp -r bug-test bug-test-copy
+  407  cd bug-test-copy
+  408  npm start
+  409  rm -r node_modules
+  410  npm install
+  411  npm start
+  412  cd ..
+  413  npm start
+  414  node node_modules
+  415  node node_modules
+  416  cd node_modules
+  417  cd react-scripts
+  418  cd scripts
+  419  cd ..
+  420  node node_modules/react-scripts/scripts/start.js 
+  421  npm start
+  422  cd node_modules/
+  423  ls
+  424  cd react-scripts
+  425  cd ..
+  426  npm start
+  427  open /Users/vinee/.npm/_logs/2021-06-04T23_59_22_237Z-debug.log
+  428  npm start
+  429  npm start
+  430  npm ls babel
+  431  npm ls babel-node
+  432  npm ls web3
+  433  npm ls ../client/web3
+  434  npm ls ../client/Web3
+  435  cd ../client/
+  436  npm ls web3
+  437  cd ../server/
+  438  ls
+  439  clear
+  440  npm install
+  441  npm cache clean
+  442  npm cache clean --force
+  443  clear
+  444  npm install
+  445  npm start
+  446  npm install --save-dev babel-cli
+  447  npm start
+  448  npm start
+  449  npm start
+  450  npm install
+  451  npm start
+  452  npm install --save-dev babel-cli
+  453  npm start
+  454  npm cache clean --force
+  455  npm install
+  456  npm start
+  457  npm install --save-dev babel-cli
+  458  npm start
+  459  history
+  460  ps -ef| grep java
+  461  ps -ef| grep node
+  462  killall node
+  463  ps -ef| grep node
+  464  killall node
+  465  netstat -vanp tcp | grep 3000
+  466  kill -9 523
+  467  netstat -vanp tcp | grep 3000
+  468  kill -9 523
+  469  ps -ef | grep node
+  470  kill -9 11248
+  471  kill -9 11256
+  472  ps -ef | grep node
+  473  kill -9 11097
+  474  kill -9 11977  13763
+  475  ps -ef | grep node
+  476  kill -9 10990  10991  11096  11097 11977 14025
+  477  ps -ef | grep node
+  478  kill -9 2978  2977  7652 7651 13781 13854 16548 17790
+  479  ps -ef | grep node
+  480  killall node
+  481  ps -ef | grep node
+  482  kill -9 7297  7620  2293
+  483  ps -ef | grep node
+  484  kill -9 24476  24477 2288 832
+  485  ps -ef | grep node
+  486  clear
+  487  ps -ef | grep node
+  488  lsof -i tcp:3000 
+  489  kill 21154 
+  490  lsof -i tcp:3000 
+  491  netstat -vanp tcp | grep 3000
+  492   kill 407800
+  493   kill 407800
+  494  truffle init
+  495  truffle migrate
+  496  truffle compile
+  497  truffle migrate
+  498  npm start
+  499  npm start
+  500  pwd
+  501  npm install react-native-web
+  502  npm install react-pro-sidebar
+  503  npm install react-icons --save
+  504  npm install @reach/menu-button
+  505  history
+
+
+  npm install @reach/disclosure
+   504  ps -e|grep node
+  505  ps -aef | grep node
+  506  top 
+  507  netstat -vanp tcp | grep 3000
+  508  netstat
+  509  netstat -vanp tcp | grep 3000
+  510  netstat -vanp tcp | grep 300*
+  511  lsof -i :3000
+  512  lsof -i :3001
+  513  kill -9 58867
+  514  lsof -i :3001
