@@ -11,7 +11,7 @@ import index from '/Users/vinee/Documents/workspace/eth-todolist-react/src/index
 
 class App extends Component {
   componentWillMount() {
-    this.loadBlockchainData()
+    //this.loadBlockchainData()
   }
 
   async loadBlockchainData() {

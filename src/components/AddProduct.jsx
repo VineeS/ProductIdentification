@@ -11,47 +11,64 @@ import index from '/Users/vinee/Documents/workspace/eth-todolist-react/src/index
 
 class App extends Component {
   componentWillMount() {
-    this.loadBlockchainData()
+    //this.loadBlockchainData()
+
   }
 
   constructor(props) {
     super(props)
     this.state = {
     ProductName: '',
-    ProductId: null,
+    ProductId: 0,
     Description:'',
+  
   };
     this.loadBlockchainData = this.loadBlockchainData.bind(this);
+    this.CreateProduct = this.CreateProduct.bind(this);
   }
 
   async loadBlockchainData() {
     const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
     const accounts = await web3.eth.getAccounts()
-    this.setState({ account: accounts[0] })
+    // this.setState({ account: accounts[0] })
     console.log(accounts[0])
 
     const CoursesContract = new web3.eth.Contract(ETH_ABI, ETH_ADDRESS)
-    this.setState({ CoursesContract })
+    // this.setState({ CoursesContract : CoursesContract })
 
     console.log('Add product')
 
     
-    const val = await CoursesContract.methods.CreateProduct("Vinee",1000,"My first name").send({from :accounts[0]})
+    // const val = await CoursesContract.methods.CreateProduct("Vinee",1000,"My first name").send({from :accounts[0]})
+    // console.log({val})
+  }
+
+
+  myChangeHandlerProductName = (event) => {
+    this.state.ProductName = event.target.value
+   
+  }
+  
+  myChangeHandlerProductId = (event) => {
+    this.state.ProductID = event.target.value
+   
+  }
+
+  myChangeHandlerDescription = (event) => {
+    this.state.Description = event.target.value
+   
+  }
+
+   CreateProduct = async() =>  {
+    console.log('Create product',this.state.ProductName,this.state.ProductID,this.state.Description)
+    const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
+    const accounts = await web3.eth.getAccounts()
+    //console.log(accounts[0])
+    const CoursesContract = new web3.eth.Contract(ETH_ABI, ETH_ADDRESS)
+    const val = await CoursesContract.methods.CreateProduct(this.state.ProductName,this.state.ProductID,this.state.Description).send({from :accounts[0]})
     console.log({val})
   }
 
-
-  myChangeHandler = (event) => {
-    let nam = event.target.name;
-    let val = event.target.value;
-    if (nam === "ProductId") {
-      if (!Number(val)) {
-        alert("Your Id must be a number");
-      }
-    }
-    this.setState({[nam]: val});
-  }
-  
 
   render() {
     return (
@@ -63,29 +80,30 @@ class App extends Component {
       <p>Interger Value Passed in Test Contract: {this.state.val}</p>
       <h1>React Dynamic Table: {this.state.students}</h1>
       <form>
-      <p>Enter Product name: {this.state.ProductName}</p>
+      <p>Enter Product name: </p>
       <input
         type='text'
         name='ProductName'
-        onChange={this.myChangeHandler}
+        onChange={this.myChangeHandlerProductName}
       />
-      <p>Enter Product Id: {this.state.ProductID}</p>
+      <p>Enter Product Id: </p>
       <input
-        type='text'
+        type= 'number'
         name='ProductId'
-        onChange={this.myChangeHandler}
+        onChange={this.myChangeHandlerProductId}
       />
-      <p>Enter Product Description : {this.state.Description}</p>
+      <p>Enter Product Description : </p>
       <input
         type='text'
         name='Description'
-        onChange={this.myChangeHandler}
+        onChange={this.myChangeHandlerDescription}
       />
       </form>
       <br/>
       <br/>
-      <input type='submit' />
-
+      <button onClick={this.CreateProduct}>
+        Create Button
+        </button>
       </div>
 
 
