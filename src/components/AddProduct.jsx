@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Web3 from 'web3'
 import '/Users/vinee/Documents/workspace/eth-todolist-react/src/App.css';
-import { ETH_ADDRESS, ETH_ABI } from './config.js'
+import { ETH_ADDRESS, ETH_ABI } from '/Users/vinee/Documents/workspace/eth-todolist-react/src/components/config.js'
 import { View, StyleSheet } from 'react-native'
 import index from '/Users/vinee/Documents/workspace/eth-todolist-react/src/index.js';
 
@@ -75,10 +75,7 @@ class App extends Component {
 
          <div className="App">
         
-         <h1>Test Contract</h1>
-      <p>Owner Account: {this.state.account}</p>
-      <p>Interger Value Passed in Test Contract: {this.state.val}</p>
-      <h1>React Dynamic Table: {this.state.students}</h1>
+      <br/>
       <form>
       <p>Enter Product name: </p>
       <input
@@ -86,12 +83,14 @@ class App extends Component {
         name='ProductName'
         onChange={this.myChangeHandlerProductName}
       />
+      <br/>
       <p>Enter Product Id: </p>
       <input
         type= 'number'
         name='ProductId'
         onChange={this.myChangeHandlerProductId}
       />
+      <br/>
       <p>Enter Product Description : </p>
       <input
         type='text'
@@ -104,6 +103,8 @@ class App extends Component {
       <button onClick={this.CreateProduct}>
         Create Button
         </button>
+        
+        
       </div>
 
 
@@ -112,4 +113,3 @@ class App extends Component {
 }
 
 export default App;
-

@@ -22,6 +22,8 @@ const App = () => {
         </Switch>
       </Router>
     </div>
+
+    
     </div>
     
   )
