@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
 import Web3 from 'web3'
-import '/Users/vinee/Documents/workspace/eth-todolist-react/src/App.css';
-import { ETH_ADDRESS, ETH_ABI } from '/Users/vinee/Documents/workspace/eth-todolist-react/src/components/config.js'
-import { View, StyleSheet } from 'react-native'
-import index from '/Users/vinee/Documents/workspace/eth-todolist-react/src/index.js';
-
-
-
+import '../App.css';
+import { ETH_ADDRESS, ETH_ABI } from './config.js';
 
 
 class App extends Component {
@@ -74,7 +69,8 @@ class App extends Component {
     return (
 
          <div className="App">
-        
+        <br/>
+<br/>
       <br/>
       <form>
       <p>Enter Product name: </p>

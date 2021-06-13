@@ -1,4 +1,4 @@
-export const ETH_ADDRESS = '0xA16C28ba3CB3353cB3e1d1D9B05b99B6DE80E44F'
+export const ETH_ADDRESS = '0xf91a0B04187bC5ad3DD24eD13304a861E86a7958'
 export const ETH_ABI =  [
     {
       "inputs": [],

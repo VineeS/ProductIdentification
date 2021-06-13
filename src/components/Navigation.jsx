@@ -10,7 +10,7 @@ function Navigation(props) {
         </div>
         <div class="container">
           <Link class="navbar-brand" to="/">
-          <h4>Cachet</h4>
+          <h4 >Cachet</h4>
           </Link>
           <div>
             <ul class="navbar-nav ml-auto">
@@ -26,16 +26,6 @@ function Navigation(props) {
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/about" ? "active" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
-
-              <li
-                class={`nav-item  ${
                   props.location.pathname === "/AddProduct" ? "active" : ""
                     }`}
               >
@@ -43,7 +33,7 @@ function Navigation(props) {
                 Add Product
               </Link>
             </li>
-
+            
             <li
           class={`nav-item  ${
             props.location.pathname === "/ProductHistory" ? "active" : ""
@@ -53,7 +43,6 @@ function Navigation(props) {
           Product History
         </Link>
       </li>
-
 
       <li
          class={`nav-item  ${
