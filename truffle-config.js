@@ -18,11 +18,11 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
-//
-// const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+//const infuraKey = "fj4jll3k.....";
+
+const fs = require('fs');
+//const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
@@ -65,7 +65,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     ropsten: {
-    provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/YOUR-PROJECT-ID`),
+    provider: () => new HDWalletProvider('candy ask fringe antique wrap sister weasel close spare youth car turtle', `https://ropsten.infura.io/v3/11f7f5fb1198419b8e39f8ac1063f6c7`),
     network_id: 3,       // Ropsten's id
     gas: 5500000,        // Ropsten has a lower block limit than mainnet
     confirmations: 2,    // # of confs to wait between deployments. (default: 0)
@@ -86,19 +86,19 @@ module.exports = {
   },
 
   // Configure your compilers
-  compilers: {
-    solc: {
-      version: "0.6.3",    // Fetch exact version from solc-bin (default: truffle's version)
-      docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
-      settings: {          // See the solidity docs for advice about optimization and evmVersion
-       optimizer: {
-         enabled: false,
-         runs: 200
-       },
-       evmVersion: "byzantium"
-      }
-    }
-  },
+  // compilers: {
+    // solc: {
+      // version: "0.6.3",    // Fetch exact version from solc-bin (default: truffle's version)
+      // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
+      // settings: {          // See the solidity docs for advice about optimization and evmVersion
+      //  optimizer: {
+        //  enabled: false,
+        //  runs: 200
+      //  },
+      //  evmVersion: "byzantium"
+      // }
+    // }
+  // },
 
   // Truffle DB is currently disabled by default; to enable it, change enabled: false to enabled: true
   //
