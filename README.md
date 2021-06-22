@@ -1,3 +1,11 @@
+
+There are a number of counterfeit products available in the market with an intension to steal, 
+replace and destroy the original. It is vital to have a system or application where it provides the user or customer a full description of the product which they are buying. I have built a website named Cachet which is an Anti-Counterfeit system using Blockchain (Ethereum) which makes it decentralized. I have used IPFS (Inter Planetary File System) to save heavy files, which is a distributed file system.
+The use of blockchain technology and smart contract helps to predefine the constraints of the application which cannot be modified or deleted. This technology provides a solution to our problem.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
