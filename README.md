@@ -4,7 +4,7 @@
 ### The use of blockchain technology and smart contract helps to predefine the constraints of the application which cannot be modified or deleted. This technology provides a solution to our problem.
 
 
-![alt text](https://github.com/VineeS/VineeS/blob/main/Screenshot 2021-06-14 at 10.02.00 AM.png?raw=true)
+![alt text](https://github.com/VineeS/VineeS/blob/main/Screenshot.png?raw=true)
 
 
 
